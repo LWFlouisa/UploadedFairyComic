@@ -1,0 +1,798 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<!-- Last Update: 01/01/1970 -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss/" />
+		
+		<title>Uploaded Fairy - Blog</title>
+		<style type="text/css">
+			html {
+    margin:0;
+    padding:0;
+    word-wrap:break-word;
+        background: #000000;
+
+}
+
+h1, h2, h3 {
+    margin:3px;
+    padding:0;
+}
+
+.afterheading {
+    padding-left:8px;
+}
+
+img {
+    border:0;
+}
+
+.avatar {
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+}
+
+.commentcontent {
+    padding:5px;
+}
+
+
+.comicnavlink {
+    max-width:70%;
+}
+
+.clear {
+    clear:both;
+}
+
+.comment {
+    padding:10px;
+}
+
+.reply {
+    margin-left:40px;
+}
+
+.nav ul li {
+    display:inline;
+    list-style:none;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#comicrating {
+    float:right;
+    padding-right:8px;
+}
+
+#comicdata {
+    float:left;
+    padding-left:8px;
+}
+
+#comicimagewrap {
+    margin:auto;
+    text-align:center;
+}
+
+#comicnav {
+    margin:auto;
+    text-align:center;
+}
+
+#comicnav * {
+    vertical-align:middle;
+}
+
+#slogan {
+    padding-left:8px;
+    padding-right:8px;
+}
+
+.box {
+    display:table;
+    box-sizing:border-box;
+    max-width:100%;
+}
+
+.leftal {
+    text-align:left;
+}
+
+.rightal {
+    text-align:right;
+}
+
+.centeral {
+    text-align:center;
+}
+
+.spacer_rate {
+    padding:3px;
+}
+
+.authordata {
+    font-weight:bold;
+}
+
+.permalinkcode {
+    background-color:rgba(255, 255, 255, 0.25);
+    padding:5px;
+    margin-right:8px;
+}
+
+.postcomment {
+    margin:3px;
+    margin-top:6px;
+    margin-bottom:6px;
+}
+
+#archive {
+    padding-left:20px;
+    width:100%;
+    margin-bottom:10px;
+}
+
+#archive td {
+    padding-right:20px;
+}
+
+#archive .chaptertitle:not(:first-child) td {
+    padding-top:25px;
+}
+
+#archive .chaptertitleinner {
+    background-color:rgba(255, 255, 255, 0.15);
+    padding:5px;
+}
+
+#archive .archivechapter {
+    margin:0;
+    padding:3px;
+    font-size:1.1em;
+}
+
+#archive .archivechapterdesc {
+    padding:4px;
+    padding-left:9px;
+    padding-top:0;
+    font-size:0.85em;
+}
+
+#archive .comicnumber {
+    width:30px;
+    padding-left:15px;
+    text-align:right;
+}
+
+#archive .comicposttime {
+    max-width:15%;
+    text-align:right;
+    padding-right:45px;
+}
+
+#errormessage {
+    margin:10px;
+}
+
+#blogs {
+    margin:10px;
+}
+
+.blogauthor {
+    margin-left:10px;
+    font-size:0.9em;
+}
+
+.blogcontent {
+    margin:20px;
+    margin-top:5px;
+}
+
+.blogcontent img {
+    max-width:100%;
+}
+
+.blognav {
+    margin-bottom:5px;
+    display:table;
+    width:100%;
+}
+
+.prevblog, .nextblog {
+    display:table-cell;
+    width:50%;
+}
+
+.prevblog {
+    text-align:left;
+}
+
+.nextblog {
+    text-align:right;
+}
+
+.blogarchivelink {
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+#blogarchive {
+    padding:0;
+    margin:10px;
+}
+
+#blogarchive li {
+    margin-left:20px;
+}
+
+#blogarchive .bahead {
+    list-style:none;
+    font-size:1.2em;
+    font-weight:bold;
+    margin:0;
+}
+
+.blogmeta {
+    margin-top:5px;
+    text-align:right;
+}
+
+.blogarchivelink {
+    text-align:right;
+}
+
+#searchbox {
+    margin:10px;
+}
+
+#comicimage, #latestcomicimage, #main_banner {
+    height:auto;
+    width:auto;
+    max-width:100%;
+}
+
+.comicsegments {
+    line-height:0; /*this is to prevent there from being space between the images on multi-image pages*/
+}
+.comicsegments .textcontent {
+    line-height:normal;
+}
+.comicsegmentimage {
+    height:auto;
+    max-width:100%;
+}
+.segmentcontainer {
+    text-align:center;
+}
+
+.box {
+    border: 1px solid #000000;
+    color:#000000;
+    font-size:14px;
+    font-family:"Gill Sans","Gill Sans MT", sans-serif;
+    background: #000000;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.box a:link, .box a:visited {
+    color:#14FF2C;
+    font-size:14px;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color:#0335FF;
+    text-decoration: underline;
+}
+
+
+
+.postcomment a:link, .box a:visited {
+    font-size:20px;
+}
+
+.box .pagelabel {
+    font-size:16px;
+}
+
+.box .pagelink:visited, .box .pagelink:link, .box .pageskip {
+    font-size:24px;
+    margin-left:20px;
+    margin-top:4px;
+    margin-bottom:4px;
+}
+
+.box .currentpage, .box .currentpage {
+    opacity:0.25;
+    font-weight:bold;
+}
+
+#navigation {
+	padding:0;
+	margin:10px;
+}
+
+
+
+
+		</style>
+		<script type="text/javascript" src="https://comicfury.com/cflayoutjs.js.php?cc=inline&amp;wcid=40997"></script>
+		
+	</head>
+	<body>
+        <div id="header-box" class="box">
+            <div class="leftal">
+                
+                
+                    <h1 id="sitetitle">Uploaded Fairy</h1>
+                
+                <span id="slogan">A webcomic</span>
+            </div>
+
+
+            <div class="merged">
+                <div class="nav">
+                    <ul id="navigation">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/comics/">Latest</a></li>
+                        <li><a href="/comics/1">First</a></li>
+                        
+                            <li><a href="/search/">Search</a></li>
+                        
+                        <li><a href="/archive/">Archive</a></li>
+                        
+                            <li><a href="/blog/">Blog</a></li>
+                        
+                        
+                            <li><a href="https://comicfury.com/comic.php?action=addsubscription&amp;cid=40997">Subscribe</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+                <div id="blog-head-box" class="box">
+            <div class="leftal">
+                <h2 class="heading">Blog</h2>
+            </div>
+
+
+            <div class="merged">
+                <div id="blogs">
+                    
+                        <div class="blog">
+                            <div class="blogdata">
+                                <h3 class="blogtitle">PAGE NINE</h3>
+                                <div class="blogauthor">by JustSarah</div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="blogcontent">
+                                <u>PAGE NINE</u> (5 PANELS)<br />
+<br />
+_PANEL 1_<br />
+AN EXECUTIONER STANDS WATCH OVER A NORMAL GUILLOTINE MODEL, WITH A YOUNG WOMAN STRAPPED TO THE BOARD.<br />
+<br />
+Caption: In the 1800s, they had the standard planks.<br />
+<br />
+CHARLES SANSON<br />
+Any last words?<br />
+<br />
+_PANEL 2_<br />
+HEMATOS FATHER GUIDES A YOUNG WOMAN TO STEP ON A PRESSURE PLATE.<br />
+<br />
+(SFX) Rolling guillotine model<br />
+<br />
+_PANEL 3_<br />
+THE GUILLOTINE ROLLS BEHIND THE WOMAN, AND TIGHTENS A METALLIC STOCK AROUND HER THIN NECK.<br />
+<br />
+Caption: But now it was refined into a short range firing arm.<br />
+<br />
+_PANEL 4_<br />
+A SERIES OF GUILLOTINE GUNS ARE MANUFACTURED ON AUTOMATED ASSEMBLY LINES.<br />
+<br />
+Caption: Now they are cheap, like carrying around a Colt 55 in your holster.<br />
+<br />
+HEMATO<br />
+I really dont want this job.<br />
+<br />
+FATHER<br />
+You&rsquo;ll grow to love it mme.<br />
+<br />
+HEMATO<br />
+D&rsquo;accord<br />
+<br />
+_PANEL 5_<br />
+HEMATO DREAMED OF BEING ON A SURGEONS TABLE, HER MANHOOD REPLACED WITH FEMALE PARTS.<br />
+<br />
+Caption: The smell of blood turned Hemato on.<br />
+Caption: And yet she felt something missing.<br />
+<br />
+HEMATO<br />
+Charles, what would you have done?
+                                <div class="clear"></div>
+                                
+                            </div>
+
+                        </div>
+                    
+                        <div class="blog">
+                            <div class="blogdata">
+                                <h3 class="blogtitle">PAGE EIGHT</h3>
+                                <div class="blogauthor">by JustSarah</div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="blogcontent">
+                                <u>PAGE EIGHT</u> (3 PANELS)<br />
+<br />
+_PANEL 1_<br />
+HEMATO TOMATO SITS BY A TOMBSTONE IN THE GRAVEYARD OF DOWNTOWN CHATTANOOGA. A MARIACHI AND FLAMENCO PLAYER OFFERS HIS HAND TO HEMATO TO PLAY A FUNERAL MARCH.<br />
+<br />
+Caption: Dance, to the rhythm of death.<br />
+Caption: In this kingdom by the wavy seas.<br />
+<br />
+_PANEL 2_<br />
+ONE MUSICIAN PLAYS THE ACCORDION, ONE A FADO GUITAR, AND THE OTHER A FLAMENCO TAP DANCER.<br />
+<br />
+Caption: For me and my Anna-Marie.<br />
+Caption: The final epitaph of the damned.<br />
+<br />
+_PANEL 3_<br />
+HEMATO IMAGINES AN EMPTY ALTER, WITHERED WITH AGE, AND A PORTAL TO HEAVEN, WHERE THEY MARRY IN DEATH.
+                                <div class="clear"></div>
+                                
+                            </div>
+
+                        </div>
+                    
+                        <div class="blog">
+                            <div class="blogdata">
+                                <h3 class="blogtitle">PAGE SEVEN</h3>
+                                <div class="blogauthor">by JustSarah</div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="blogcontent">
+                                PAGE SEVEN (Five Panels)<br />
+<br />
+_PANEL 1_<br />
+PARIS FRANCE. FRENCH REVOLUTION. CHARLOTTE CORDAY WALKS UP THE SCAFFOLD STAIRS, BEFORE A CROWD OF BLOODTHIRSTY ONLOOKERS.<br />
+<br />
+Caption: 1792<br />
+Caption: Charlotte is beheaded by essentially<br />
+Caption: the same machine that killed my Anna Marie.<br />
+<br />
+_PANEL 2_<br />
+HEMATO TOMATO IS HOLDING THE SEVERED HEAD OF ANNA MARIE. SHE HAS TEARS IN HER EYES.<br />
+<br />
+Caption: And yet somehow now,<br />
+Caption: this embrace feels more cruel.<br />
+Caption: This was suppose to be 2016.<br />
+Caption: Not the 18th century.<br />
+<br />
+_PANEL 3_<br />
+HEMATO OPENS THE CASKET AT THE QUARRY NEAR CHATTANOOGA.<br />
+<br />
+Caption: I embrace the only person<br />
+Caption: that ever loved me.
+<div style="text-align: right;">CUT TO</div>
+<br />
+_PANEL 4_<br />
+ONE YEAR AGO. ANNA AND HEMATO PLAYING JRPGS TOGETHER AFTER HIGH SCHOOL.<br />
+<br />
+Caption: When we were young,<br />
+Caption: we used to hang out together.<br />
+<br />
+_PANEL 5_<br />
+THEY KISS IN THE LAKE NEAR THEIR HOME AFTER SCHOOL.<br />
+<br />
+Caption: And yet that is now in the past.<br />
+Caption: I didnt think I&rsquo;d love a parracidal girl.
+                                <div class="clear"></div>
+                                
+                            </div>
+
+                        </div>
+                    
+                        <div class="blog">
+                            <div class="blogdata">
+                                <h3 class="blogtitle">PAGE SIX</h3>
+                                <div class="blogauthor">by JustSarah</div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="blogcontent">
+                                PAGE SIX (Panels ?)<br />
+<br />
+ACT I<br />
+<br />
+SCENE 1
+<div style="text-align: center;">HEMATO<br />
+My name is Hemato. And I have a<br />
+thing for blood.<br />
+&nbsp;</div>
+
+<div style="text-align: center;">HEMATO<br />
+I used to think it was for<br />
+decapitation, but sometimes life<br />
+can be cut throat.</div>
+
+<div style="text-align: center;"><em>(Hemato rolls a bowling ball<br />
+at the bowling alley.)</em></div>
+
+<div style="text-align: center;">Like a game of bowling, sometimes<br />
+things roll a different way.<br />
+&nbsp;</div>
+
+<div style="text-align: center;">HEMATO (cont&rsquo;d)<br />
+Let me tell you about my dead<br />
+girlfriend Anna Marie.</div>
+
+<div style="text-align: center;"><em>(Hemato opens an old tome. It<br />
+looks like it might turn to<br />
+dust.)</em></div>
+
+<div style="text-align: center;">It was way back in the year of<br />
+1839.<br />
+&nbsp;</div>
+SCENE 2<br />
+Anna Marie is walking back home to her cottage. She is tended by two brothers, both carrying white wine bottles.<br />
+&nbsp;
+<div style="text-align: center;">ANNA MARIE<br />
+Yet more wine brothers?<br />
+<br />
+HEMATO<br />
+Back then, laws were different<br />
+regarding familial relations.</div>
+<br />
+SCENE 3<br />
+Anna Marie being tried in court for the murder of her eldest brother and abusive father.
+<div style="text-align: center;"><br />
+HEMATO<br />
+She came within a month of almost<br />
+going to the guillotine.<br />
+<br />
+HEMATO<br />
+When she moved to the US to restart<br />
+her life, she lost friends do to<br />
+various fevers and plagues.<br />
+<br />
+HEMATO<br />
+In this strange new world, where I<br />
+call my home, things operate a bit<br />
+differently.</div>
+<br />
+SCENE 4<br />
+The spirit of Anna Marie floats in a sea of disembodied<br />
+spirits. Eventually she wakes up as a new born.<br />
+&nbsp;
+<div style="text-align: center;">HEMATO<br />
+But this life, I hope will be<br />
+different.</div>
+
+                                <div class="clear"></div>
+                                
+                            </div>
+
+                        </div>
+                    
+                        <div class="blog">
+                            <div class="blogdata">
+                                <h3 class="blogtitle">PAGE FIVE</h3>
+                                <div class="blogauthor">by JustSarah</div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="blogcontent">
+                                PAGE FIVE (Panels ?)<br />
+<br />
+<em>Author note: Do to this section&#39;s emphasis on dialogue, I decided to structure it as a stage play. This means this might end up being more or less pages.</em><br />
+<br />
+ACT I<br />
+<br />
+SCENE 1<br />
+HEMATO IS AT DANCE DANCE REVOLUTION CLUB. SHE IS SITTING AT ONE OF THE DESK CLUSTERS ARRANGED AS A TABLE AROUND THE EDGES OF THE ROOOM.
+<div style="text-align: center;">HEMATO<br />
+What are you doing Saturday night?<br />
+<br />
+ANNA MARIE<br />
+I might be busy, needing to secure<br />
+immigration papers.<br />
+<br />
+HEMATO<br />
+You have a father who is French,<br />
+and a mother who is Japanese right?<br />
+<br />
+ANNA MARIE<br />
+Yes, apparently immigration to<br />
+France was easier than here in the<br />
+US.<br />
+<br />
+HEMATO<br />
+Not a surprise, with you know who<br />
+in office.<br />
+<br />
+ANNA MARIE<br />
+Yea, ... dont remind me.</div>
+
+<div style="text-align: right;">CUT TO</div>
+<br />
+HEMATO AND ANNA MARIE ARE IN THE PARKING LOT. HEMATOS MOM IS WAVING TO HER.<br />
+&nbsp;
+<div style="text-align: center;">HEMATO<br />
+See you in the next club meeting<br />
+after school.</div>
+
+                                <div class="clear"></div>
+                                
+                            </div>
+
+                        </div>
+                    
+                        <div class="blog">
+                            <div class="blogdata">
+                                <h3 class="blogtitle">PAGE FOUR</h3>
+                                <div class="blogauthor">by JustSarah</div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="blogcontent">
+                                PAGE FOUR (3 Panels)<br />
+<br />
+_PANEL 1_<br />
+HEMATO TOMATO FLOATS IN A SEA OF LIME GREEN PIXELS. THE BACKGROUND OTHERWISE IS BLACK. WIRES OF COMPUTER MESH BLEND WITH A CATACOMB OF FLESH.<br />
+<br />
+_PANEL 2_<br />
+HEMATO REMEMBERS HER LAST CONVERSATION WITH ANNA-MARIE:<br />
+&nbsp;
+<div style="text-align: center;">HEMATO<br />
+Dad want your head after you<br />
+murdered your father.<br />
+<br />
+ANNA MARIE<br />
+your the one who gets off from the<br />
+blood of people&rsquo;s necks.</div>
+<br />
+_PANEL 3_<br />
+ANNA-MARIE&rsquo;S NECK IS LOCKED INTO A LUNETTE OF A GUILLOTINE GUN.<br />
+&nbsp;
+<div style="text-align: center;">ANNA MARIE<br />
+Until we meet again.</div>
+<br />
+THE BLADE FROM THE GUILLOTINE GUN SHOOTS THROUGH HER NECK. HER HEAD FALLS TO THE FLOOR. BLOOD SHOOTS OUT OF HER NECK.<br />
+<br />
+Caption: It was then I decided to not pursue...<br />
+Caption: my job as an executioner...<br />
+Caption: but a champion of justice.<br />
+&nbsp;
+<div style="text-align: center;">HEMATO TOMATO<br />
+I can&rsquo;t believe it is 2085. So<br />
+many things have passed sense the<br />
+wars.</div>
+
+                                <div class="clear"></div>
+                                
+                            </div>
+
+                        </div>
+                    
+                        <div class="blog">
+                            <div class="blogdata">
+                                <h3 class="blogtitle">Loosely based on Uploaded Fairy,</h3>
+                                <div class="blogauthor">by JustSarah</div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="blogcontent">
+                                This will be loosely based on my webnovel Uploaded Fairy: https://ipfs.io/ipfs/QmYnJH2oRpysaQDKKQzW46weaTXAHyDvP5v4eRGrcbiSSv/
+                                <div class="clear"></div>
+                                
+                            </div>
+
+                        </div>
+                    
+                        <div class="blog">
+                            <div class="blogdata">
+                                <h3 class="blogtitle">PAGE THREE</h3>
+                                <div class="blogauthor">by JustSarah</div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="blogcontent">
+                                _PANEL 1_<br />
+A COUPLE IS EXCHANGING TASTES OF THEIR COFFEE DRINKS IN A FRENCH CAFE IN CHATTANOOGA. THE WOMAN, IS DRESSED AS A FRENCH PEASANT FROM THE 1830S, COMPLETE WITH WOODEN CLOGS. THE MAN, IS DRESSED AS A MODERN SARARIMAN.<br />
+&nbsp;
+<div style="text-align: center;">NAMELESS WOMAN<br />
+Konnichiwa! C&rsquo;est un bonjour?<br />
+<br />
+SARARYMAN<br />
+Oui, pour toi c&rsquo;est une konnichiwa!</div>
+<br />
+_PANEL 2_<br />
+THE WOMAN MAKES A JOKE AND GIVING THE BUSINESS MAN A HAND JOB, IF SHE WOULD TELL HIM THE NAME OF HER EMPLOYER.<br />
+<br />
+Caption: Sometimes it takes a lot to win<br />
+Caption: an appointment with a sibling,<br />
+Caption: even if its a boss of your ex.<br />
+<br />
+_Panel 3_<br />
+THE ARMY STORM THE CITY OF CHATTANOOGA, AND CAPTURE EVERY THIRD CHILD WITHIN THE IMMEDIATE VICINITY FOR CONSCRIPTION.
+<div style="text-align: center;"><br />
+A WOMAN IN CROWD<br />
+Dont take my baby, hes the only one I have left.<br />
+<br />
+SOLDIER<br />
+Piss off Frog.</div>
+<br />
+_PANEL 4_<br />
+THE NAMELESS WOMAN IN THE DINER VISUALIZED THE SOLDIERS MUTATED INTO FACELESS PARASITE, FEEDING OFF THE REMAINS OF THEIR CIVILIZATION. THE SOLDIER SHOOTS THE WOMAN IN THE CROWD IN THE FOREHEAD, TAKING THE BOY WITH HIM FOR RECRUITMENT INTO THE COLONIAL FORCES.<br />
+<br />
+Caption: But that time was not that day.
+<div style="text-align: right;">CUT TO BEDROOM:</div>
+
+<div style="text-align: center;">NAMELESS WOMAN<br />
+I suppose all colonies become like<br />
+this.</div>
+
+                                <div class="clear"></div>
+                                
+                            </div>
+
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        
+            <div id="blog-archive-box" class="box">
+                <div class="pages leftal">
+                    <span class="pagelabel">Pages:</span><br />
+
+                    
+                        
+
+                        
+                            <span class="currentpage">
+                        
+
+                        <a href="/blogarchive/page/1" class="pagelink">1</a>
+
+                        
+                            </span>
+                        
+                    
+                        
+
+                        
+
+                        <a href="/blogarchive/page/2" class="pagelink">2</a>
+
+                        
+                    
+                </div>
+            </div>
+
+        
+
+
+        
+        <div id="footer-box" class="box">
+            <div class="leftal">
+                <div id="footer">
+                    &copy; 2018 - 2020 Comic author<br />
+                    <a href="/rss/">RSS</a> | 
+                    
+                        <a href="https://comicfury.com/comicprofile.php?url=uploadedfairy">Comic Profile</a> |
+                    
+                    <a href="http://comicfury.com">ComicFury</a> | 
+                    <a href="#">Top</a>
+                </div>
+            </div>
+        </div>
+
+
+
+	</body>
+</html>
